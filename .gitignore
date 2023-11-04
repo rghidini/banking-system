@@ -1,5 +1,11 @@
 # Compiled class file
 *.class
+.metadata
+.settings
+.classpath
+.project
+target/
+bin/
 
 # Log file
 *.log
@@ -22,3 +28,27 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# IDEs and editors
+/.idea
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# System Files
+.DS_Store
+Thumbs.db
+.tmp
+.DS_Store?
+.dpl/
+./vscode
+client/.vscode
+server/.vscode
+server/node_modules
+client/node_modules
+client/typings
+client/app/**/*.js
+client/app/**/*.map
+client/npm-debug.log
+server/npm-debug.log
